@@ -1,0 +1,24 @@
+.loan-history-container {
+  padding: 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.loan-history-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.loan-history-table th, .loan-history-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.loan-history-table th {
+  background-color: #f4f4f4;
+}
+
+.loan-history-table td {
+  text-align: center;
+}

@@ -1,0 +1,43 @@
+.book-form-container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa; /* Fondo similar al de la vista de detalles del libro */
+    border: 1px solid #e1e1e1; /* Borde similar al de la vista de detalles del libro */
+    border-radius: 8px; /* Bordes redondeados similares */
+    max-width: 600px; /* Ancho máximo para un diseño más centrado */
+    margin: 20px auto; /* Centrar el contenedor y añadir un margen superior */
+  }
+  
+  .book-form-container h1 {
+    color: #007bff; /* Color del título como el de la vista de detalles del libro */
+    margin-bottom: 20px;
+  }
+  
+  .book-form-container form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .book-form-container input {
+    margin-bottom: 15px; /* Espaciado entre campos */
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #e1e1e1;
+    border-radius: 4px;
+  }
+  
+  .book-form-container button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    border: 1px solid #007bff;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .book-form-container button:hover {
+    background-color: #0056b3;
+  }
+  

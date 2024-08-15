@@ -1,0 +1,70 @@
+/* ActiveLoans.css */
+
+.loan-list-container {
+  padding: 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.loan-list-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.loan-list-table th, .loan-list-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.loan-list-table th {
+  background-color: #f4f4f4;
+  text-align: left;
+}
+
+.loan-list-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.action-buttons {
+  margin-top: 20px;
+}
+
+.mark-completed-button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #28a745;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-right: 10px;
+}
+
+.mark-completed-button:hover {
+  background-color: #218838;
+}
+
+.add-loan-button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #007bff;
+  text-decoration: none;
+  border: 2px solid #007bff;
+  border-radius: 5px;
+  background-color: #fff;
+  text-align: center;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.add-loan-button:hover {
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+}

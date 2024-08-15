@@ -1,0 +1,70 @@
+.book-detail-container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa; /* Fondo similar al de la lista de libros */
+  border: 1px solid #e1e1e1; /* Borde similar al de la lista de libros */
+  border-radius: 8px; /* Bordes redondeados similares */
+  max-width: 800px; /* Ancho máximo para un diseño más centrado */
+  margin: 0 auto; /* Centrar el contenedor */
+}
+
+.book-detail h1 {
+  color: #007bff; /* Color del título como el de la lista de libros */
+  margin-bottom: 20px;
+}
+
+.book-detail p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #333; /* Color del texto más oscuro para mejor legibilidad */
+  margin-bottom: 10px; /* Espaciado entre párrafos */
+}
+
+.button-container {
+  margin-top: 20px;
+}
+
+.book-detail-container .back-button,
+.book-detail-container .edit-button,
+.book-detail-container .delete-button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 4px;
+  text-decoration: none;
+  text-align: center;
+  transition: background-color 0.3s, color 0.3s;
+  margin: 10px; /* Espaciado entre botones */
+}
+
+.book-detail-container .back-button {
+  color: #007bff;
+  background-color: #fff; /* Fondo blanco para el botón */
+  border: 1px solid #007bff;
+}
+
+.book-detail-container .back-button:hover {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.edit-button {
+  color: #fff;
+  background-color: #007bff;
+  border: 1px solid #007bff;
+}
+
+.edit-button:hover {
+  background-color: #0056b3;
+  color: #fff;
+}
+
+.delete-button {
+  color: #fff;
+  background-color: #dc3545;
+  border: 1px solid #dc3545;
+}
+
+.delete-button:hover {
+  background-color: #c82333;
+}
